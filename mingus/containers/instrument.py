@@ -253,4 +253,5 @@ class MidiInstrument(Instrument):
 
     def __init__(self, name=''):
         self.name = name
+        self.instrument_nr = self.names.index(name) + 1
 
